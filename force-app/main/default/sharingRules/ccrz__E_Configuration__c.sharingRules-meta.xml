@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingGuestRules>
+        <fullName>Cobra_CC_Configuration</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Cobra CC Configuration</label>
+        <sharedTo>
+            <guestUser>Cobra_Rolamentos1</guestUser>
+        </sharedTo>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>notEqual</operation>
+            <value>B2B_Commerce_Guest_Restricted</value>
+        </criteriaItems>
+    </sharingGuestRules>
+</SharingRules>

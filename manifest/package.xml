@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <!-- This document is based in the steps suggested by Salesforce: 
+    https://help.salesforce.com/articleView?id=b2b_commerce_setup_sharing_rules.htm&type=5 -->
+
+    <types>
+        <!--<members>*</members>-->
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <!--<members>*</members>-->
+        <name>ApexComponent</name>
+    </types>
+    <types>
+        <!--<members>*</members>-->
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <!--<members>*</members>-->
+        <name>ApexTestSuite</name>
+    </types>
+    <types>
+        <!--<members>*</members>-->
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <!--<members>*</members>-->
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <types>
+        <!--<members>*</members>-->
+        <name>LightningComponentBundle</name>
+    </types>
+    <types>
+        <!--<members>*</members>-->
+        <name>StaticResource</name>
+    </types>
+
+    <!-- NOTE 2 and 3. These sharing rulee ensures that all users can see text and buttons
+     on the storefront when they log in. This rule is required for all storefronts.
+     Also, this following block of metadata sharing rules are the basic ones for B2B Commerce. 
+     Version tested: 4.11 -->
+
+    <types>
+        <members>Account.Account_Guest_Access</members>
+        <members>ccrz__E_PageLabel__c.CC_Page_Label_Guest_Access</members>
+        <name>SharingGuestRule</name>
+    </types>
+
+    <!-- 4. If your storefront allows guest users to self-register,
+     deploy the following block of metadata shringi rules. -->
+
+    <types>
+        <members>ccrz__E_AccountGroup__c.CC_Account_Group_Guest_Access</members>
+        <members>ccrz__E_AccountGroupPriceList__c.CC_Account_Group_Price_List_Guest_Access</members>
+        <members>ccrz__E_Category__c.CC_Category_Guest_Access</members>
+        <members>ccrz__E_PriceList__c.CC_Price_List_Guest_Access</members>
+        <members>ccrz__E_Product__c.CC_Product_Guest_Access</members>
+        <members>ccrz__E_ProductIndex__c.CC_Product_Index_Guest_Access</members>
+        <name>SharingGuestRule</name>
+    </types>
+
+    <!-- 5. If your storefront allows guest users to browse without registering,
+     create sharing rules for the following objects. These rules are in addition
+      to the rules you already created. If not, don't deploy the following block. -->
+
+    <types>
+        <members>ccrz__E_Attribute__c.CC_Attribute_Guest_Access</members>
+        <members>ccrz__E_CompositeProduct__c.CC_Composite_Product_Guest_Access</members>
+        <members>ccrz__E_PageSection__c.CC_Page_Section_Guest_Access</members>
+        <members>ccrz__E_Promo__c.CC_Promotion_Guest_Access</members>
+        <members>ccrz__E_PublicCache__c.CC_Public_Cache_Guest_Access</members>
+        <members>ccrz__E_Spec__c.CC_Spec_Guest_Access</members>
+        <members>ccrz__E_Subscription__c.CC_Subscription_Guest_Access</members>
+        <name>SharingGuestRule</name>
+    </types>
+    
+    <!-- 6. If your storefront allows guest users to add products to a cart,
+    create sharing rules for the following objects. These rules are in addition
+    to the rules you already created. Deploy the following block. -->
+
+    <types>
+        <members>ccrz__E_Cart__c.CC_Cart_Guest_Access</members>
+        <members>ccrz__E_Rule__c.CC_Rule_Guest_Access</members>
+        <members>ccrz__E_Coupon__c.CC_Coupon_Guest_Access</members>
+        <members>ccrz__E_PriceModifier__c.CC_Price_Modifier_Guest_Access</members>
+        <members>ccrz__E_RichContent__c.CC_Rich_Content_Guest_Access</members>
+        <members>ccrz__E_SiteIndex__c.CC_Site_Index_Guest_Access</members>
+        <members>ccrz__E_Subscriber_Page__c.CC_Subscriber_Page_Guest_Access</members>
+        <name>SharingGuestRule</name>
+    </types>
+
+    <!-- 7. If your storefront allows guest users to complete checkout,
+     create sharing rules for the following objects. These rules are in 
+     addition to the rules you already created. Deploy the following block. -->
+
+    <types>
+        <members>ccrz__E_AccountAddressBook__c.CC_Account_Address_Guest_Access</members>
+        <members>ccrz__E_ContactAddr__c.CC_Contact_Address_Guest_Access</members>
+        <members>ccrz__E_Order__c.CC_Order_Guest_Access</members>
+        <members>ccrz__E_Term__c.CC_Term_Guest_Access</members>
+        <members>ccrz__E_RelatedProductGroup__c.CC_Related_Product_Group_Guest_Access</members>
+        <name>SharingGuestRule</name>
+    </types>
+
+    <!-- 8. Some B2B Commerce custom objects relate to optional features or specific use cases.
+     If your storefront uses the following objects and allows guest users to complete checkout, 
+     create sharing rules for the necessary objects. These rules are in addition to the rules you
+     already created. Deploy the following block. -->
+
+    <types>
+        <members>ccrz__E_AccountGroup__c.CC_Account_Group_Guest_Access_SA</members> <!-- Anonymous, or the name of your organization's account group for guest buyers -->
+        <members>ccrz__E_PriceGroup__c.CC_Price_Group_Guest_Access</members>
+        <members>ccrz__E_ProductInventoryItem__c.CC_Product_Inventory_Item_Guest_Access</members>
+        <members>ccrz__E_RichContent__c.CC_Rich_Content_Guest_Access</members>
+        <members>ccrz__E_RuleTargetSKU__c.CC_Rule_Target_SKU_Guest_Access</members>
+        <members>ccrz__E_Seller__c.CC_Seller_Guest_Access</members>
+        <members>ccrz__E_ShippingRate__c.CC_Shipping_Rate_Guest_Access</members>
+        <members>ccrz__E_SiteIndex__c.CC_Site_Index_Guest_Access</members>
+        <members>ccrz__E_StorefrontAssociation__c.CC_Storefront_Association_Guest_Access</members>
+        <members>ccrz__E_Subscriber_Page__c.CC_Subscriber_Page_Guest_Access</members>
+        <name>SharingGuestRule</name>
+    </types>
+
+    <version>48.0</version>
+</Package>
