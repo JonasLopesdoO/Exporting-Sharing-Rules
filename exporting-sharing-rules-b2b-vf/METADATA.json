@@ -1,0 +1,5 @@
+{
+  "title": "Exporting sharing rules",
+  "description": "Boilerplate XML code and instructions for deploying sharing rules programmatically for B2B for Visualforce. It also can be used as a basis for deploying sharing rules in general.",
+  "tags": ["MIGRATION", "B2B"]
+}

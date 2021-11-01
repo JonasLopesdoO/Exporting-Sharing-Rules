@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>*</members>
+        <name>ActionLinkGroupTemplate</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>AnalyticSnapshot</name>
+    </types>
+    <types>
+        <!--<members>AnimationRule_Developer_Name</members>-->
+        <members>*</members>
+        <name>AnimationRule</name>
+    </types>
+    <types>
+        <!--<members>ClassNameWithoutClsExtension</members>-->
+        <members>*</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <!--<members>Generic_Sales_Return_Order_Email_Cmp</members>-->
+        <members>*</members>
+        <name>ApexComponent</name>
+    </types>
+    <types>
+        <!--<members>VisualForcePageWithoutExtension</members>-->
+        <members>*</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <!--<members>Suite1</members>-->
+        <!--<members>Suite2</members>-->
+        <members>*</members>
+        <name>ApexTestSuite</name>
+    </types>
+    <types>
+        <!--<members>TriggerName</members>-->
+        <members>*</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <!--<members>AppSwitcher</members>-->
+        <!--<members>Salesforce1</members>-->
+        <members>*</members>
+        <name>AppMenu</name>
+    </types>
+    <types>
+        <!--<members>Account.Retailer_Edit_Approval</members> Format: ObjectName.ApprovalProcessAPIName -->
+        <!--<members>Asset_Item__c.Rejection_Request</members>.Format: CustomObjectName__c.ApprovalProcessAPIName -->
+        <members>*</members>
+        <name>ApprovalProcess</name>
+    </types>
+    <types>
+        <!--Retrieving specific assignment rule -->
+
+        <!--<members>Case.samplerule</members> -->
+        <!--<members>Lead.newrule</members>-->
+        <members>*</members>
+        <name>AssignmentRule</name>
+    </types>
+    <types>
+        <!--Retrieving all rules for given object -->
+
+        <!--<members>Case</members> -->
+        <!--<members>Lead</members>-->
+        <members>*</members>
+        <name>AssignmentRules</name>
+    </types>
+    <types>
+        <!--<members>A_Faculty</members>-->
+        <!--<members>B_Faculty</members>-->
+        <!--<members>C_Faculty</members>-->
+        <members>*</members>
+        <name>Audience</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <types>
+        <!--<members>FacebookAuthProvider</members>-->
+        <members>*</members>
+        <name>AuthProvider</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>AutoResponseRules</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>BrandingSet</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CallCenter</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>Certificate</name>
+    </types>
+    <types>
+        <!--<members>DataService_Leads_Enrichment</members>-->
+        <members>*</members>
+        <name>CleanDataService</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>Community</name>
+    </types>
+    <types>
+        <!-- members>Contact.B2B_Contact_Header</members> -->
+        <members>*</members>
+        <name>CompactLayout</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ConnectedApp</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ContentAsset</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CorsWhitelistOrigin</name>
+    </types>
+    <types>
+        <!--<members>MyCustomApp</members> To retrieve a custom app, specify the app name.-->
+        <!--<members>standard__Chatter</members> To retrieve a standard app, add the standard__ prefix to the app name.-->
+        <!--<members>myInstalledPackageNS__PackageApp</members> To retrieve an app that is part of an installed package, add the package namespace prefix followed by two underscores and the app name.-->
+        <members>*</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomApplicationComponent</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomFeedFilter</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomHelpMenuSection</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomHelpMenuSection</name>
+    </types>
+    <types>
+        <!--<members>Account.SLA__c</members> Retrieving custom field from standard object-->
+        <!--<members>Account.Phone</members> Retrieving standard field from standard object-->
+        <!--<members>MyCustomObject__c.MyCustomField__c</members> Retrieving custom field from custom object-->
+        <!--<members>MyCustomObject__c.*</members> Retrieving all custom fields from the object -->
+        <name>CustomField</name>
+    </types>
+    <types>
+        <!-- If you define each custom label, one unique file called CustomLabels will be retrieved
+        Containing only the labels specified in the members tag-->
+        <!--<members>Price</members> Custom label name -->
+        <!--<members>Product</members> -->
+        <members>*</members>
+        <name>CustomLabels</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomMetadata</name>
+    </types>
+    <types>
+        <!--<members>Account</members> Retrieving standard objects -->
+        <!--<members>MyCustomObject__c</members> Retrieving custom objects -->
+        <!--<members>myns__MyCustomObject__c</members> Retrieving the custom object from a managed package -->
+        <members>*</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomObjectTranslation</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomPageWebLink</name>
+    </types>
+    <types>
+        <!--<members>CustomPermissionAPIName</members>-->
+        <members>*</members>
+        <name>CustomPermission</name>
+    </types>
+    <types>
+        <!--<members>DSN</members>-->
+        <members>*</members>
+        <name>CustomSite</name>
+    </types>
+    <types>
+        <!--<members>Account</members> Name of the object or custom object -->
+        <!--<members>MyWebTab</members> For web tabs, the fullName is the developer-assigned name of the tab -->
+        <members>*</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <!--<members>MyDBFolder/MyDashBoardName</members> Folder structure just like in Documents, EmailTemplates and Reports -->
+        <members>*</members>
+        <name>Dashboard</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>DataCategoryGroup</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>DelegateGroup</name>
+    </types>
+    <types>
+        <!--According to documentation we can not use the * wildcard, 
+        first define the folder, and then the name of the document -->
+        <!--<members>MyDocumentFolder/MyDocumentName</members>-->
+        <name>Document</name>
+    </types>
+    <types>
+        <!--<members>ContactToLeadDuplicate</members>-->
+        <members>*</members>
+        <name>DuplicateRule</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>EclairGeoData</name>
+    </types>
+    <types>
+        <!--<members>Emailservice</members>-->
+        <members>*</members>
+        <name>EmailServicesFunction</name>
+    </types>
+    <types>
+        <!-- Use unfiled&public for emailtemplates that are on the default folder --> 
+        <!--<members>unfiled$public/EmailTemplateApiName</members> -->
+        <!--<members>MyFolder/SalesNewCustomerEmail</members> -->
+        <members>*</members>
+        <name>EmailTemplate</name>
+    </types>
+    <types>
+        <!--<members>Case.samplerule</members> Defining separately-->
+        <!--<members>Case.newrule</members> Defining separately-->
+        <members>*</members>
+        <name>EscalationRule</name>
+    </types>
+    <types>
+        <!--<members>Case</members> Bringing all-->
+        <members>*</members>
+        <name>EscalationRules</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ExternalDataSource</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ExternalServiceRegistration</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>FieldSet</name>
+    </types>
+    <types>
+        <!--<members>New_Opportunity_Page</members>-->
+        <members>*</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <!--<members>Update_Rating_Average-12</members> The Flow api name followed by a dash '-' and the version number-->
+        <members>*</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <!--<members>updateBenefits</members>-->
+        <members>*</members>
+        <name>FlowCategory</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>FlowDefinition</name>
+    </types>
+    <types>
+        <!--<members>UpsellGlobal</members>-->
+        <members>*</members>
+        <name>GlobalValueSet</name>
+    </types>
+    <types>
+        <!--<members>Numbers-fr</members>-->
+        <members>*</members>
+        <name>GlobalValueSetTranslation</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>Group</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>HomePageComponent</name>
+    </types>
+    <types>
+        <!--<members>Service Home</members>-->
+        <members>*</members>
+        <name>HomePageLayout</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>Index</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>InstalledPackage</name>
+    </types>
+    <types>
+        <!-- <members>Account-Key Account Global Layout</members> Standar object layout-->
+        <!--<members>Speed_Stock_Order__c.Speed Stock History Layout</members> Custom object layout-->
+        <members>*</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>Letterhead</name>
+    </types>
+    <types>
+        <!--<members>BoltTe</members>-->
+        <members>*</members>
+        <name>LightningBolt</name>
+    </types>
+    <types>
+        <!--<members>LightningComponentApiName</members>-->
+        <members>*</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>LightningExperienceTheme</name>
+    </types>
+    <types>
+        <!--<members>Account.AccountTeam</members> Where AccountTeam is the listview name-->
+        <members>*</members>
+        <name>ListView</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>MatchingRule</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>MatchingRules</name>
+    </types>
+    <types>
+        <!--<members>site1.blocking_rule</members>-->
+        <members>*</members>
+        <name>ModerationRule</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>NamedCredential</name>
+    </types>
+    <types>
+        <!--<members>DSN</members>-->
+        <members>*</members>
+        <name>Network</name>
+    </types>
+    <types>
+        <!--<members>cbDSN_Community</members>-->
+        <members>*</members>
+        <name>NetworkBranding</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>PathAssistant</name>
+    </types>
+    <types>
+        <!--<members>PermissionSetAPIName</members>-->
+        <members>*</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <!--<members>myPartition</members>-->
+        <!--<members>Namespace.myPartition</members> If a namespace is defined in your organization, add the namespace prefix to your partition name. -->
+        <members>*</members>
+        <name>PlatformCachePartition</name>
+    </types>
+    <types>
+        <!--<members>Lead.leadtemplate</members>-->
+        <members>*</members>
+        <name>PostTemplate</name>
+    </types>
+    <types>
+        <!--<members>MyProfile</members> Profile api name goes here -->
+        <members>*</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ProfilePasswordPolicy</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ProfileSessionSetting</name>
+    </types>
+    <types>
+        <!--<members>NameOfDesiredQueue</members>-->
+        <members>*</members>
+        <name>Queue</name>
+    </types>
+    <types>
+        <!--<members>Account.Order_Management</members> Object . Quick action api name-->
+        <members>*</members>
+        <name>QuickAction</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>RecommendationStrategy</name>
+    </types>
+    <types>
+        <!--<members>SampleDeployment</members>-->
+        <members>*</members>
+        <name>RecordActionDeployment</name>
+    </types>
+    <types>
+        <!--<members>ccrz__E_Product__c.ccrz__ProductType_Normal</members>-->
+        <members>*</members>
+        <name>RecordType</name>
+    </types>
+    <types>
+        <!--<members>Validate_End_Market_API</members>-->
+        <!--<members>Validate_Service_Wrapper_API</members>-->
+        <members>*</members>
+        <name>RemoteSiteSetting</name>
+    </types>
+    <types>
+        <!--<members>MyReportFolder/MyReportName</members>  Folder structure just like in Documents and EmailTemplates -->
+        <members>*</members>
+        <name>Report</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>Role</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>SamlSsoConfig</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>Scontrol</name>
+    </types>
+    <types>
+        <!--<members>Security</members>-->
+        <members>*</members>
+        <name>Settings</name>
+    </types>
+    <types>
+        <!-- There are some types of sharing rules that can be retrieved:
+        the criteria rules, owner rules, territory rules and guest rules for example -->
+        <!--<members>Lead.testShareRule</members>-->
+        <name>SharingCriteriaRule</name>
+    </types>
+    <types>
+        <!--<members>ccrz__E_AccountGroup__c.CC_Account_Group_Guest_Access</members>-->
+        <members>*</members>
+        <name>SharingGuestRule</name>
+    </types>
+    <types>
+        <!--<members>Contact.MyOwnerSharingRule</members> -->
+        <members>*</members>
+        <name>SharingOwnerRule</name>
+    </types>
+     <types>
+        <!--<members>Account.*</members>-->
+        <members>*</members>
+        <name>SharingTerritoryRule</name>
+    </types>
+    <types>
+        <!--<members>DSN_C</members>-->
+        <members>*</members>
+        <name>SiteDotCom</name>
+    </types>
+    <types>
+        <!--In API version 38.0 and later, the StandardValueSet type represents standard picklists.-->
+        <!--<members>Industry</members>-->
+        <!--<members>SalesTeamRole</members>-->
+        <name>StandardValueSet</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>StandardValueSetTranslation</name>
+    </types>
+    <types>
+        <!--<members>UploadFile</members>-->
+        <members>*</members>
+        <name>StaticResource</name>
+    </types>
+    <types>
+        <!--<members>Sample Dictionary</members>-->
+        <members>*</members>
+        <name>SynonymDictionary</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>TopicsForObjects</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>TransactionSecurityPolicy</name>
+    </types>
+    <types>
+        <!-- It is important to pay attention to the API version, some translations only were added in some API versions
+        To understand better please refer to:  https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_translations.htm-->
+        <!-- <members>de</members> You can specify the language of the translations to retrieve -->
+        <!-- <members>pt_BR</members> -->
+        <members>*</members>
+        <name>Translations</name>
+    </types>
+    <types>
+        <!--<members>Contract__c.Status_Be_Draft_On_Record_Creation</members> ObjectName. to have its workflows retrieve -->
+        <members>*</members>
+        <name>ValidationRule</name>
+    </types>
+    <types>
+        <!--<members>Stock_Proposal__c.Add_Products</members>-->
+        <!--<members>CLM_Contract__c.ArosaEmailSending</members>-->
+        <!--<members>CLM_Contract__c.CongaDriveAC</members>-->
+        <!--<members>CLM_Contract__c.TerminatedEmailSending</members>-->
+        <!--<members>CLM_Contract__c.CongaDriveTC</members>-->
+        <members>*</members>
+        <name>WebLink</name>
+    </types>
+    <types>
+        <!--<members>Contact</members> ObjectName to have its workflows retrieve -->
+        <members>*</members>
+        <name>Workflow</name>
+    </types>
+    <types>
+        <!--<members>User.B2B_Send_email_to_all_the_inactive_users_English</members> ObjectName.alertName -->
+        <members>*</members>
+        <name>WorkflowAlert</name>
+    </types>
+    <types>
+        <!--<members>Contact.B2B_DisableContactWebOrdering</members> ObjectName.FieldUpdateName -->
+        <members>*</members>
+        <name>WorkflowFieldUpdate</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>WorkflowKnowledgePublish</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>WorkflowOutboundMessage</name>
+    </types>
+    <types>
+        <!--<members>CLM_Contract__c.CongaDriveTC</members> ObjectName.WorkflowRuleName -->
+        <members>*</members>
+        <name>WorkflowRule</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>WorkflowSend</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>WorkflowTask</name>
+    </types>
+    <version>52.0</version>
+</Package>
