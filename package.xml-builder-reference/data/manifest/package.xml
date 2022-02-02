@@ -175,6 +175,11 @@
         <name>CustomObject</name>
     </types>
     <types>
+        <!--<members>Custom_notification_api_name</members>  -->
+        <members>*</members>
+        <name>CustomNotificationType</name>
+    </types>
+    <types>
         <members>*</members>
         <name>CustomObjectTranslation</name>
     </types>
